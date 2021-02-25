@@ -1,17 +1,17 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/layout"
-import Header from "../components/header"
-import SimpleSlider from "../components/slider"
-import Footer from "../components/Footer"
-import {FullArticle} from "../components/articles"
-import * as constants from '../constants/labels.json'
-import * as menu from '../constants/menu.json'
+import Layout from "./../components/layout"
+import Header from "./../components/header"
+import SimpleSlider from "./../components/slider"
+import Footer from "./../components/Footer"
+import {FullArticle} from "./../components/articles"
+import * as constants from './../constants/labels.json'
+import * as menu from './../constants/menu.json'
 
 export default function Post({ data }) {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
-  const src = require('../../content'+frontmatter.featured_image)
+  const src = require('./.././../content'+frontmatter.featured_image)
   return (<Layout>
     <Header menu={menu.main} logo={constants.logo}></Header>
     <SimpleSlider></SimpleSlider>

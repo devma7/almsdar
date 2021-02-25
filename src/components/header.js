@@ -1,5 +1,5 @@
 import React from "react"
-import * as  constants from "../constants/constants.json"
+import * as  constants from "./../constants/constants.json"
 
 
 export default  class Header extends React.Component{

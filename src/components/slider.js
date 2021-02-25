@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { useStaticQuery, graphql } from "gatsby"
-import * as constants from '../constants/labels.json'
+import * as constants from './../constants/labels.json'
 // export default class SimpleSlider extends Component {
   export  default function SliderBlock() {
     const settings = {
@@ -61,7 +61,7 @@ function getSliderImages(data){
   return data.allMarkdownRemark.edges
   .map(((e,i)=> {
     let  frontmatter = e.node.frontmatter
-    let src =  require('../../content'+frontmatter.featured_image);
+    let src =  require('./.././../content'+frontmatter.featured_image);
     let cat  = frontmatter.categories
     let title  = frontmatter.title
     let html  = e.node.html

@@ -26,7 +26,7 @@
 }
 @font-face{
   font-family: 'arabic_kufi';
-  src: url('../fonts/arabic_kufi.ttf');
+  src: url('./../fonts/arabic_kufi.ttf');
 }
 html {
   background-color: rgb(242, 255, 240);
@@ -84,7 +84,7 @@ a,h3,h2,p,input,button{
   background: orange;
 }
 .home-posts-title{
-  background: transparent url(../img/diagonal-lines.png) right 70% repeat-x;
+  background: transparent url(./../img/diagonal-lines.png) right 70% repeat-x;
 }
 .readmore{
   text-align: left;

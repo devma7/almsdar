@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "./../components/layout"
 import Header from "./../components/header"
 import SimpleSlider from "./../components/slider"
-import Footer from "./../components/Footer"
+import Footer from "./../components/footer"
 import {FullArticle} from "./../components/articles"
 import * as constants from './../constants/labels.json'
 import * as menu from './../constants/menu.json'

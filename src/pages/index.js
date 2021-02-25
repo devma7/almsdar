@@ -2,8 +2,8 @@ import React from "react"
 import Header from "./../components/header"
 import Layout from "./../components/layout"
 import SimpleSlider from "./../components/slider"
-import Articles from "./../components/Articles"
-import Footer from "./../components/Footer"
+import Articles from "./../components/articles"
+import Footer from "./../components/footer"
 import { graphql } from "gatsby"
 import * as constants from './../constants/labels.json'
 import * as menu from './../constants/menu.json'
